@@ -74,10 +74,11 @@ nav-p3 button{
     width: 200px;
     position: relative;
    z-index: 1;
-    top: 30%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%;
+    width: auto;
+    height: auto;
 }
 
 a, a:hover, a:active, a:visited { 
