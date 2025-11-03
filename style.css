@@ -1,0 +1,86 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 33px;
+    background-color: rgb(149, 199, 220);
+    color: rgb(255, 255, 255);
+}
+
+nav-p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav-p1 h3{
+    border: 2px solid rgb(106, 166, 196);
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+nav-p1 i{
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+nav-p2 h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav-p3 button{
+    padding: 7px 12px;  
+    border-radius: 50px;
+    border: 2px solid rgb(106, 166, 196);
+    background-color: rgb(106, 166, 196);
+    color: white;
+    font-weight: 500;
+}
+
+#main>h1{
+    font-size: 135px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.instagram-media{
+    height: 350px;
+    width: 200px;
+    position: relative;
+   z-index: 1;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+a, a:hover, a:active, a:visited { 
+    color: white; 
+     text-decoration: none;
+}
